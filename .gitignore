@@ -5,10 +5,6 @@
 /.pnp
 .pnp.js
 
-# Netlify Visual Editor (formerly Stackbit)
-.stackbit/cache
-.cache
-
 # testing
 /coverage
 
@@ -21,8 +17,6 @@
 
 # misc
 .DS_Store
-*.pem
-Thumbs.db
 
 # debug
 npm-debug.log*
@@ -30,15 +24,10 @@ yarn-debug.log*
 yarn-error.log*
 
 # local env files
-.env
 .env.local
 .env.development.local
 .env.test.local
 .env.production.local
-.envrc
 
-# IDE
-*.code-workspace
-.idea
-
-tmp*
+# Local Netlify folder
+.netlify
